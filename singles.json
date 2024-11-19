@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Твое имя",
+        "artist": "JIBVRV",
+        "cover": "твое имя.png",
+        "links": {
+            "spotify": "https://open.spotify.com/album/32Q2TZOPt4GHOM6I41doV3?si=Mme53inWScqabfF68SKO6Q",
+            "apple": "https://music.apple.com/ge/album/%D1%82%D0%B2%D0%BE%D0%B5-%D0%B8%D0%BC%D1%8F-single/1780105818",
+            "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mPO6YjkvilXy1Oax42xzRrw5sxkfVtyas&si=9ZlEzOYTcdeZWBSs",
+            "yandex": "https://music.yandex.ru/album/34046223/track/133003915",
+            "vk": "https://vk.com/audio474499286_456866440_5dba3ed6bea59894e7",
+            "tiktok": "https://vt.tiktok.com/ZSjuLReaY"
+        }
+    },
+    {
+        "title": "Он и она",
+        "artist": "JIBVRV",
+        "cover": "он и она.png",
+        "links": {
+            "spotify": "https://open.spotify.com/album/1z4SyV3zfAxHWohXEzJ0R6?si=2_JfPaYZS1yGbwd7jX6Cgg",
+            "apple": "https://music.apple.com/ge/album/%D0%BE%D0%BD-%D0%B8-%D0%BE%D0%BD%D0%B0-single/1780085789",
+            "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_neSoTbDf2F7oL21zTh98VIideFAOX_cbs&si=kdAO-70cRZblecV3",
+            "yandex": "https://music.yandex.ru/album/34044594/track/133000793",
+            "vk": "https://vk.com/audio474499313_456868596_4370aedd4b38519fb4",
+            "tiktok": "https://vt.tiktok.com/ZSjuLLhVr"
+        }
+    },
+    {
+        "title": "Тост",
+        "artist": "JIBVRV",
+        "cover": "тост.png",
+        "links": {
+            "spotify": "https://open.spotify.com/album/2YYx9wd0FcOXoizX23u17X?si=iL97Bf6PTrWdosSdiIJ3ew",
+            "apple": "https://music.apple.com/ge/album/%D1%82%D0%BE%D1%81%D1%82-single/1780102150",
+            "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kni8nfWhLLyQjvgZT-r8gSyBS7x2grdyo&si=4-znxKgIZjDtpnAW",
+            "yandex": "https://music.yandex.ru/album/34046063/track/133003526",
+            "vk": "https://vk.com/audio474499210_456867508_c0226dc7b5559fcbf2",
+            "tiktok": "https://vt.tiktok.com/ZSju8KEgX"
+        }
+    },
+    {
+        "title": "Takken Mod",
+        "artist": "JIBVRV",
+        "cover": "takken mod.png",
+        "links": {
+            "spotify": "https://open.spotify.com/album/5t9Nyp6ueLxXVapNwxCUtQ?si=XV02XNtYQP6QPRJmnXMnxA",
+            "apple": "https://music.apple.com/ge/album/takken-mod-single/1780104869",
+            "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nhsNyf8Ab5sMOjipoFxX4Uwpo2wULn_YY&si=fEaR64LOG2wrDs5w",
+            "yandex": "https://music.yandex.ru/album/34046183/track/133003781",
+            "vk": "https://vk.com/audio474499280_456866670_cb3e9efe004319a1d8",
+            "tiktok": "https://vt.tiktok.com/ZSjuLFmcR"
+        }
+    }
+]

@@ -1,0 +1,253 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.single {
+    position: relative;
+    max-width: 300px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden; /* Обрезка содержимого по форме кнопки */
+    transition: transform 0.3s;
+}
+
+.single:hover {
+    transform: scale(1.05);
+}
+
+.single img {
+    width: 100%;
+    display: block;
+}
+
+.description {
+    padding: 15px;
+    text-align: center;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.description p {
+    font-size: 1em;
+    color: #aaa;
+}
+
+.platforms {
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: -100%;
+    right: 0%; /* Платформы скрыты ниже кнопки */
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s; /* Плавная анимация */
+    padding: 5px 0 5px;
+}
+
+.platforms a {
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+.single:hover .platforms {
+    bottom: 0%;
+    opacity: 1; /* Делаем платформу видимой */
+}
+
+.title{
+    margin: 0 auto 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+/* Цвета при наведении */
+.platforms a.spotify:hover {
+    color: #1db954; /* Зеленый для Spotify */
+}
+
+.platforms a.apple:hover {
+    color: #fa243c; /* Красный для Apple Music */
+}
+
+.platforms a.youtube:hover {
+    color: #ff0000; /* Красный для YouTube */
+}
+
+.platforms a.yandex:hover {
+    color: #ffcc00; /* Желтый для Yandex Music */
+}
+
+.platforms a.vk:hover {
+    color: #4680c2; /* Синий для VK Music */
+}
+
+.platforms a.tiktok:hover {
+    color: #69c9d0; /* Голубой для TikTok */
+}
+
+/* Стиль для отдельной страницы с синглом */
+.single-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.cover-large {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.platform-button {
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.platform-button.spotify {
+    background-color: #1db954;
+}
+
+.platform-button.apple {
+    background-color: #fa243c;
+}
+
+.platform-button.youtube {
+    background-color: #ff0000;
+}
+
+.platform-button.yandex {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+.platform-button.vk {
+    background-color: #4680c2;
+}
+
+.platform-button.tiktok {
+    background: linear-gradient(90deg, #69c9d0, #ee1d52);
+}
+
+.platform-button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+#singles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    flex: 0; /* Убирает растягивание синглов */
+}
+
+/* Оформление header */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.email-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.email-link i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.email-link:hover {
+    color: #69c9d0; /* Голубой цвет при наведении */
+}
+
+/* Для body и html */
+html, body {
+    height: 100%; /* Устанавливаем высоту на 100% */
+    margin: 0; /* Убираем отступы */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Контейнер для основного содержимого */
+main {
+    flex: 1; /* Заставляет main занимать всё доступное пространство */
+    display: flex;
+    flex-direction: column; /* Элементы остаются выровненными по колонкам */
+}
+
+/* Стили для footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: auto; /* Заставляет footer перемещаться к низу */
+}
