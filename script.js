@@ -11,7 +11,7 @@ fetch('singles.json')
 
             // Добавляем обложку с кнопкой для перехода на страницу сингла
             singleDiv.innerHTML = `
-                <a href="single.html?single=${encodeURIComponent(single.title)}">
+                <a href="single/index.html?single=${encodeURIComponent(single.title)}">
                     <img src="${single.cover}" alt="${single.title}">
                 </a>
                 <div class="description">

@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const singleTitle = urlParams.get('single');
 
 // Загружаем JSON с информацией о синглах
-fetch('singles.json')
+fetch('../singles.json')
     .then(response => response.json())
     .then(singles => {
         const single = singles.find(s => s.title === singleTitle);
@@ -11,7 +11,7 @@ fetch('singles.json')
             // Заполняем страницу данными о сингле
             document.getElementById('single-title').textContent = single.title;
             document.getElementById('single-artist').textContent = `by ${single.artist}`;
-            document.getElementById('single-cover').src = single.cover;
+            document.getElementById('single-cover').src = `../${single.cover}`;
             document.getElementById('single-cover').alt = single.title;
             
             // Генерируем кнопки для платформ
