@@ -1,19 +1,31 @@
+@font-face {
+    font-family: 'DIST';
+    src: url('fonts/DIST Inking.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'DIST', Arial, sans-serif;
     margin: 0;
-    background-color: #121212;
-    color: #fff;
+    background-color: #000000;
+    color: #000000;
 }
 
 header {
     text-align: center;
-    padding: 20px;
-    background-color: #1f1f1f;
+    padding: 10px;
+    background-image: url('back-red.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;  
 }
 
 h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
+    color: #fff;
 }
 
 main {
@@ -27,10 +39,12 @@ main {
 .single {
     position: relative;
     max-width: 300px;
-    background-color: #1f1f1f;
-    border-radius: 10px;
     overflow: hidden; /* Обрезка содержимого по форме кнопки */
     transition: transform 0.3s;
+    background-image: url('back-red.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;  
 }
 
 .single:hover {
@@ -42,27 +56,41 @@ main {
     display: block;
 }
 
+.masked-wrapper {
+  padding: 15px;
+}
+
+
+.masked {
+    display: block;
+    mask-image: url('mask.png');
+    mask-size: cover;
+    mask-repeat: no-repeat;
+
+    -webkit-mask-image: url('mask.png');
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+}
+
 .description {
-    padding: 15px;
+    padding: 0px 15px 35px 15px;
     text-align: center;
 }
 
 .description h2 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin: 0;
-}
-
-.description p {
-    font-size: 1em;
-    color: #aaa;
+    color: #000;
 }
 
 .platforms {
     position: absolute;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url('back-red.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;  
     bottom: -100%;
     right: 0%; /* Платформы скрыты ниже кнопки */
     width: 100%;
@@ -73,7 +101,7 @@ main {
 
 .platforms a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     margin: auto;
     padding: 10px;
     font-size: 1.1em;
@@ -86,14 +114,6 @@ main {
 
 .title{
     margin: 0 auto 0 auto;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1f1f1f;
-    font-size: 0.9em;
-    color: #aaa;
 }
 
 /* Цвета при наведении */
@@ -118,7 +138,7 @@ footer {
 }
 
 .platforms a.tiktok:hover {
-    color: #69c9d0; /* Голубой для TikTok */
+    color: #fff; /* Голубой для TikTok */
 }
 
 /* Стиль для отдельной страницы с синглом */
@@ -146,8 +166,8 @@ footer {
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 25px;
-    color: #fff;
-    font-size: 1.2em;
+    color: #000000;
+    font-size: 2em;
     font-weight: bold;
     width: 80%;
     max-width: 300px;
@@ -201,11 +221,11 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 5px 50px;
 }
 
 .logo {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
@@ -214,17 +234,17 @@ footer {
     align-items: center;
     text-decoration: none;
     font-size: 1em;
-    color: #fff;
+    color: #000000;
     transition: color 0.3s ease;
 }
 
 .email-link i {
     margin-right: 10px;
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 .email-link:hover {
-    color: #69c9d0; /* Голубой цвет при наведении */
+    color: #fff; /* Голубой цвет при наведении */
 }
 
 /* Для body и html */
@@ -246,8 +266,11 @@ main {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #1f1f1f;
-    font-size: 0.9em;
-    color: #aaa;
+    background-image: url('back-red.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;  
+    font-size: 1.5em;
+    color: #000;
     margin-top: auto; /* Заставляет footer перемещаться к низу */
 }
