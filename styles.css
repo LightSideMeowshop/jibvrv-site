@@ -116,29 +116,9 @@ main {
     margin: 0 auto 0 auto;
 }
 
-/* Цвета при наведении */
-.platforms a.spotify:hover {
-    color: #1db954; /* Зеленый для Spotify */
-}
-
-.platforms a.apple:hover {
-    color: #fa243c; /* Красный для Apple Music */
-}
-
-.platforms a.youtube:hover {
-    color: #ff0000; /* Красный для YouTube */
-}
-
-.platforms a.yandex:hover {
-    color: #ffcc00; /* Желтый для Yandex Music */
-}
-
-.platforms a.vk:hover {
-    color: #4680c2; /* Синий для VK Music */
-}
-
-.platforms a.tiktok:hover {
-    color: #fff; /* Голубой для TikTok */
+.header-title{
+    margin: 0 auto 0 auto;
+    color: #000;
 }
 
 /* Стиль для отдельной страницы с синглом */
@@ -173,36 +153,6 @@ main {
     max-width: 300px;
     text-align: center;
     transition: all 0.3s ease;
-}
-
-.platform-button.spotify {
-    background-color: #1db954;
-}
-
-.platform-button.apple {
-    background-color: #fa243c;
-}
-
-.platform-button.youtube {
-    background-color: #ff0000;
-}
-
-.platform-button.yandex {
-    background-color: #ffcc00;
-    color: #000;
-}
-
-.platform-button.vk {
-    background-color: #4680c2;
-}
-
-.platform-button.tiktok {
-    background: linear-gradient(90deg, #69c9d0, #ee1d52);
-}
-
-.platform-button:hover {
-    transform: scale(1.05);
-    filter: brightness(1.2);
 }
 
 #singles-container {
